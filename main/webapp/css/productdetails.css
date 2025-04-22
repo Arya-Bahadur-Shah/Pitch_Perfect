@@ -1,0 +1,127 @@
+@charset "UTF-8";
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .photos {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .large-image img {
+    width: 640px;
+    height: 369px;
+  }
+  
+  .small-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  
+  .small-images img {
+    width: 264px;
+    height: 176px;
+    object-fit: cover;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: 1.75fr 1.25fr;
+    grid-gap: 40px;
+  }
+  
+  .description {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .description h2 {
+    margin-top: 0;
+  }
+  
+  .posted-by {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .posted-by img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .booking {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 0px rgba(203, 203, 203, 0.25);
+
+  }
+  
+  .price h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .price span {
+    font-size: 14px;
+    color: gray;
+  }
+  
+  .days, .slots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 15px;
+  }
+  
+  .days button, .slots button {
+    background: #eee;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .days button:hover, .slots button:hover {
+    background: #ccc;
+  }
+  
+  .cart {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .cart:hover {
+    background: #45a049;
+  }

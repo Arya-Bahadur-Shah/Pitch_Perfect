@@ -1,0 +1,140 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color:#F5F5F5;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+  width: 343px;
+  background-color: #F5F5F5;
+  border-right: 1px solid #969191;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+  
+  .logo-img {
+    width: 140px;
+    margin-bottom: 40px;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .nav-link {
+    padding: 12px 0;
+    text-decoration: none;
+    color: #333;
+    border-left: 4px solid transparent;
+    transition: all 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .nav-link.active {
+    color: #4DA941;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #4DA941;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding-top: 80px;
+    padding-left: 120px;
+    background-color: #F5F5F5;
+  }
+  
+  .main-content h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .change-photo {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .account-form {
+    max-width: 600px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #B4B4B4;
+    border-radius: 4px;
+    background-color: #D9D9D9;
+    height: 26px;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    width: 136px;
+    height: 35px;
+    border: 2px solid #4DA941;
+    color: black;
+    background-color: transparent;
+    border-radius: 9px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
