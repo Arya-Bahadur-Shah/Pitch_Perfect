@@ -125,3 +125,91 @@ body {
   .cart:hover {
     background: #45a049;
   }
+  /* Medium screens (tablets) */
+@media (max-width: 992px) {
+  .photos {
+    grid-template-columns: 1fr;
+  }
+
+  .large-image img,
+  .small-images img {
+    width: 100%;
+    height: auto;
+  }
+
+  .small-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .content {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .container {
+    padding: 0 10px;
+  }
+
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 576px) {
+  .container {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .large-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .small-images {
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+  }
+
+  .small-images img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content {
+    display: block;
+  }
+
+  .description,
+  .booking {
+    padding: 15px;
+  }
+
+  .posted-by {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .posted-by img {
+    margin-bottom: 10px;
+  }
+
+  .days button,
+  .slots button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .cart {
+    width: 100%;
+    font-size: 14px;
+    height: 40px;
+  }
+}
