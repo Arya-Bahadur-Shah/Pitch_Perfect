@@ -16,9 +16,11 @@
       <a href="${pageContext.request.contextPath}/pages/account.jsp"><i class="fas fa-user-circle"></i></a>
     </div>
   </header>
-  <div class="search-bar">
-    <input type="text" placeholder="Search">
-    <button class="filter-btn"><i class="fas fa-sliders-h"></i></button>
-    <button class="search-btn"><i class="fas fa-search"></i></button>
-  </div>
+  <div class="searchBar-holder">
+    <div class="search-bar">
+      <input type="text" placeholder="Search">
+      <button class="filter-btn"><i class="fas fa-sliders-h"></i></button>
+      <button class="search-btn"><i class="fas fa-search"></i></button>
+    </div>
+  </div> 
 </div>
